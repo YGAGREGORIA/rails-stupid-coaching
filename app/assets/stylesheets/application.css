@@ -8,3 +8,50 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+ /* Coaching app styles */
+
+.coaching-container {
+  margin-top: 3rem;
+}
+
+.coaching-title {
+  margin-bottom: 2rem;
+}
+
+.coaching-card {
+  margin-bottom: 1rem;
+}
+
+.coach-answer {
+  background-color: #fff9db; /* soft yellow */
+  border-left: 5px solid #facc15;
+}
+
+.coach-answer p {
+  font-weight: 600;
+}
+
+.coaching-footer {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #6c757d;
+}
+/* Ask form */
+
+.coaching-form {
+  max-width: 600px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.coaching-form label {
+  font-weight: 500;
+}
+
+.coaching-form input {
+  border-radius: 0.5rem;
+}
+
+.coaching-form button {
+  margin-top: 0.5rem;
+}

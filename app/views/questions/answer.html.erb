@@ -1,0 +1,25 @@
+<div class="container coaching-container">
+  <h1 class="coaching-title">Stupid Coaching</h1>
+
+  <!-- User question -->
+  <div class="card coaching-card">
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p><%= @question %></p>
+        <footer class="blockquote-footer coaching-footer">You</footer>
+      </blockquote>
+    </div>
+  </div>
+
+  <!-- Coach answer -->
+  <div class="card coaching-card coach-answer">
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p><%= @answer %></p>
+        <footer class="blockquote-footer coaching-footer">Your coach</footer>
+      </blockquote>
+    </div>
+  </div>
+
+  <%= link_to "Ask another question", ask_path, class: "btn btn-primary mt-3" %>
+</div>
